@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F027F963281960E500B9A2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027F962281960E500B9A2DD /* AppDelegate.swift */; };
+		F027F965281960E500B9A2DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027F964281960E500B9A2DD /* SceneDelegate.swift */; };
+		F027F967281960E500B9A2DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027F966281960E500B9A2DD /* ViewController.swift */; };
+		F027F96A281960E500B9A2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F027F968281960E500B9A2DD /* Main.storyboard */; };
+		F027F96D281960E500B9A2DD /* Nano_challenge_1_Vincents_PB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F027F96B281960E500B9A2DD /* Nano_challenge_1_Vincents_PB.xcdatamodeld */; };
+		F027F96F281960E600B9A2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F027F96E281960E600B9A2DD /* Assets.xcassets */; };
+		F027F972281960E600B9A2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F027F970281960E600B9A2DD /* LaunchScreen.storyboard */; };
+		F03430F5281A31C2006E5486 /* NewFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03430F4281A31C2006E5486 /* NewFood.swift */; };
+		F03430F7281A4C08006E5486 /* TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03430F6281A4C08006E5486 /* TagsViewController.swift */; };
+		F03430F9281A83FD006E5486 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03430F8281A83FD006E5486 /* Food.swift */; };
+		F03430FB281A872B006E5486 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03430FA281A872B006E5486 /* NoteCell.swift */; };
+		F03430FD281A897A006E5486 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03430FC281A897A006E5486 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F027F95F281960E500B9A2DD /* Nano challenge 1 Vincents PB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano challenge 1 Vincents PB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F027F962281960E500B9A2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F027F964281960E500B9A2DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F027F966281960E500B9A2DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F027F969281960E500B9A2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F027F96C281960E500B9A2DD /* Nano_challenge_1_Vincents_PB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nano_challenge_1_Vincents_PB.xcdatamodel; sourceTree = "<group>"; };
+		F027F96E281960E600B9A2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F027F971281960E600B9A2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F027F973281960E600B9A2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03430F4281A31C2006E5486 /* NewFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFood.swift; sourceTree = "<group>"; };
+		F03430F6281A4C08006E5486 /* TagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsViewController.swift; sourceTree = "<group>"; };
+		F03430F8281A83FD006E5486 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F03430FA281A872B006E5486 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		F03430FC281A897A006E5486 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F027F95C281960E500B9A2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F027F956281960E500B9A2DD = {
+			isa = PBXGroup;
+			children = (
+				F027F961281960E500B9A2DD /* Nano challenge 1 Vincents PB */,
+				F027F960281960E500B9A2DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F027F960281960E500B9A2DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F027F95F281960E500B9A2DD /* Nano challenge 1 Vincents PB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F027F961281960E500B9A2DD /* Nano challenge 1 Vincents PB */ = {
+			isa = PBXGroup;
+			children = (
+				F027F962281960E500B9A2DD /* AppDelegate.swift */,
+				F027F964281960E500B9A2DD /* SceneDelegate.swift */,
+				F03430FA281A872B006E5486 /* NoteCell.swift */,
+				F03430F6281A4C08006E5486 /* TagsViewController.swift */,
+				F027F966281960E500B9A2DD /* ViewController.swift */,
+				F03430FC281A897A006E5486 /* Extensions.swift */,
+				F03430F8281A83FD006E5486 /* Food.swift */,
+				F03430F4281A31C2006E5486 /* NewFood.swift */,
+				F027F968281960E500B9A2DD /* Main.storyboard */,
+				F027F96E281960E600B9A2DD /* Assets.xcassets */,
+				F027F970281960E600B9A2DD /* LaunchScreen.storyboard */,
+				F027F973281960E600B9A2DD /* Info.plist */,
+				F027F96B281960E500B9A2DD /* Nano_challenge_1_Vincents_PB.xcdatamodeld */,
+			);
+			path = "Nano challenge 1 Vincents PB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F027F95E281960E500B9A2DD /* Nano challenge 1 Vincents PB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F027F976281960E600B9A2DD /* Build configuration list for PBXNativeTarget "Nano challenge 1 Vincents PB" */;
+			buildPhases = (
+				F027F95B281960E500B9A2DD /* Sources */,
+				F027F95C281960E500B9A2DD /* Frameworks */,
+				F027F95D281960E500B9A2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano challenge 1 Vincents PB";
+			productName = "Nano challenge 1 Vincents PB";
+			productReference = F027F95F281960E500B9A2DD /* Nano challenge 1 Vincents PB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F027F957281960E500B9A2DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F027F95E281960E500B9A2DD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F027F95A281960E500B9A2DD /* Build configuration list for PBXProject "Nano challenge 1 Vincents PB" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F027F956281960E500B9A2DD;
+			productRefGroup = F027F960281960E500B9A2DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F027F95E281960E500B9A2DD /* Nano challenge 1 Vincents PB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F027F95D281960E500B9A2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F027F972281960E600B9A2DD /* LaunchScreen.storyboard in Resources */,
+				F027F96F281960E600B9A2DD /* Assets.xcassets in Resources */,
+				F027F96A281960E500B9A2DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F027F95B281960E500B9A2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03430F5281A31C2006E5486 /* NewFood.swift in Sources */,
+				F03430FD281A897A006E5486 /* Extensions.swift in Sources */,
+				F027F967281960E500B9A2DD /* ViewController.swift in Sources */,
+				F027F96D281960E500B9A2DD /* Nano_challenge_1_Vincents_PB.xcdatamodeld in Sources */,
+				F027F963281960E500B9A2DD /* AppDelegate.swift in Sources */,
+				F027F965281960E500B9A2DD /* SceneDelegate.swift in Sources */,
+				F03430F9281A83FD006E5486 /* Food.swift in Sources */,
+				F03430F7281A4C08006E5486 /* TagsViewController.swift in Sources */,
+				F03430FB281A872B006E5486 /* NoteCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F027F968281960E500B9A2DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F027F969281960E500B9A2DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F027F970281960E600B9A2DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F027F971281960E600B9A2DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F027F974281960E600B9A2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F027F975281960E600B9A2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F027F977281960E600B9A2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 578L7P3847;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nano challenge 1 Vincents PB/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BSD.Nano-challenge-1-Vincents-PB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F027F978281960E600B9A2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 578L7P3847;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nano challenge 1 Vincents PB/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BSD.Nano-challenge-1-Vincents-PB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F027F95A281960E500B9A2DD /* Build configuration list for PBXProject "Nano challenge 1 Vincents PB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F027F974281960E600B9A2DD /* Debug */,
+				F027F975281960E600B9A2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F027F976281960E600B9A2DD /* Build configuration list for PBXNativeTarget "Nano challenge 1 Vincents PB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F027F977281960E600B9A2DD /* Debug */,
+				F027F978281960E600B9A2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F027F96B281960E500B9A2DD /* Nano_challenge_1_Vincents_PB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F027F96C281960E500B9A2DD /* Nano_challenge_1_Vincents_PB.xcdatamodel */,
+			);
+			currentVersion = F027F96C281960E500B9A2DD /* Nano_challenge_1_Vincents_PB.xcdatamodel */;
+			path = Nano_challenge_1_Vincents_PB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F027F957281960E500B9A2DD /* Project object */;
+}
