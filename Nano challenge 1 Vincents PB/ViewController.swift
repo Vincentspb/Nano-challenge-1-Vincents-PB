@@ -6,23 +6,24 @@
 //
 
 import UIKit
-
 import CoreData
-
-
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var foodList = [NSManagedObject]()
-
+    
+    
     @IBOutlet weak var foodTable: UITableView!
+    
+    
+    var foodList = [NSManagedObject]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        foodTable.dataSource = self
-        foodTable.delegate = self
+            foodTable.dataSource = self
+            foodTable.delegate = self
         // Do any additional setup after loading the view.
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         guard let appDelegate =
@@ -33,11 +34,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
           let managedContext =
             appDelegate.persistentContainer.viewContext
           
-          //2
           let fetchRequest =
             NSFetchRequest<NSManagedObject>(entityName: "Food")
           
-          //3
           do {
             foodList = try managedContext.fetch(fetchRequest)
           } catch let error as NSError {
@@ -58,9 +57,60 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         noteCell.notesLabel.text =  foodList[indexPath.row].value(forKey: "notes") as? String
         noteCell.lifeSpanLabel.text = (foodList[indexPath.row].value(forKey: "lifeSpan") as? Date)?.formatToString()
         return noteCell
-        
-        
     }
 
+//    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+//
+//        // Create Swipe Actio
+//        let action = UIContextualAction (style: .destructive, title: "Delete"){(action, view, completionHandler) in
+//
+//        // ToDo: Which Foodlist to remove
+//        let foodListToRemove = self.foodList[indexPath.row]
+//
+//        // ToDo: Remove the FoodList
+//        self.foodTable.delete(foodListToRemove)
+//
+//        // Todo: Save the Data
+//            do {
+//                try self.foodTable.save()
+//            }
+//            catch {
+//            }
+//
+//        // TodDo: Re-Fetch the data
+//            self.foodTable
+//        }
+//        return UISwipeActionsConfiguration(actions: [action])
+//    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+
+            foodList.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? NewFood{
+            vc.updateData = { [weak self] in
+                guard let appDelegate =
+                    UIApplication.shared.delegate as? AppDelegate else {
+                      return
+                  }
+                  
+                  let managedContext =
+                    appDelegate.persistentContainer.viewContext
+                  
+                  let fetchRequest =
+                    NSFetchRequest<NSManagedObject>(entityName: "Food")
+                  
+                  do {
+                      self?.foodList = try managedContext.fetch(fetchRequest)
+                  } catch let error as NSError {
+                    print("Could not fetch. \(error), \(error.userInfo)")
+                  }
+                self?.foodTable.reloadData()
+            }
+        }
+    }
 }
 
